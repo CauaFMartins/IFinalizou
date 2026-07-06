@@ -1195,24 +1195,55 @@ func get_custom_choice_button(label: String):
 	return button
 
 # instances a normal dialogic button
+# instances a normal dialogic button
 func get_classic_choice_button(label: String):
 	var theme = current_theme
 	var button : Button = ChoiceButton.instance()
-	button.text = label
+
+	# Guarda o texto completo para o tooltip
+	button.hint_tooltip = label
+
+	# Mostra uma versão resumida no botão
+	if label.length() > 20:
+		var short_text = label.substr(0, 20)
+
+		# Evita cortar a palavra no meio
+		var last_space = short_text.rfind(" ")
+		if last_space > 0:
+			short_text = short_text.substr(0, last_space)
+
+		button.text = short_text + "..."
+	else:
+		button.text = label
+
 	button.set_meta('input_next', Dialogic.get_action_button())
-	
+
 	# Removing the blue selected border
 	button.set('custom_styles/focus', StyleBoxEmpty.new())
-	# Text
-	button.set('custom_fonts/font', DialogicUtil.path_fixer_load(theme.get_value('text', 'font', "res://addons/dialogic/Example Assets/Fonts/DefaultFont.tres")))
 
+	# Text
+	button.set(
+		'custom_fonts/font',
+		DialogicUtil.path_fixer_load(
+			theme.get_value(
+				'text',
+				'font',
+				"res://addons/dialogic/Example Assets/Fonts/DefaultFont.tres"
+			)
+		)
+	)
 
 	if theme.get_value('buttons', 'fixed', false):
 		var size = theme.get_value('buttons', 'fixed_size', Vector2(130,40))
 		button.rect_min_size = size
 		button.rect_size = size
-	
-	button_container.set('custom_constants/separation', theme.get_value('buttons', 'gap', 20))
+
+	button_container.set(
+		'custom_constants/separation',
+		theme.get_value('buttons', 'gap', 20)
+	)
+
+	return button
 	
 	# Different styles
 	var default_background = 'res://addons/dialogic/Example Assets/backgrounds/background-2.png'

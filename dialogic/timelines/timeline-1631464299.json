@@ -17,11 +17,11 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": true
+				"4": false
 			},
 			"type": 0,
 			"z_index": 0
@@ -37,11 +37,11 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": true,
+				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			},
 			"type": 0,
 			"z_index": 0
@@ -128,7 +128,7 @@
 		},
 		{
 			"event_id": "dialogic_024",
-			"set_theme": "theme-1783350220.cfg"
+			"set_theme": "theme-1631463496.cfg"
 		},
 		{
 			"character": "",
@@ -169,6 +169,10 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1631463496.cfg"
 		},
 		{
 			"change_timeline": "timeline-1777835378.json",
