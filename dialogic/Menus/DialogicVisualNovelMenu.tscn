@@ -128,15 +128,15 @@ content_margin_top = 4.0
 content_margin_bottom = 4.0
 bg_color = Color( 0.545098, 0.411765, 0.203922, 1 )
 
+[sub_resource type="DynamicFont" id=27]
+size = 45
+font_data = ExtResource( 22 )
+
 [sub_resource type="DynamicFont" id=12]
 size = 50
 outline_color = Color( 0.815686, 0.768627, 0.458824, 1 )
 use_mipmaps = true
 font_data = ExtResource( 2 )
-
-[sub_resource type="DynamicFont" id=27]
-size = 45
-font_data = ExtResource( 22 )
 
 [sub_resource type="DynamicFont" id=28]
 size = 25
@@ -163,6 +163,7 @@ size = 25
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxLine" id=13]
+color = Color( 0.384314, 0.219608, 0.117647, 1 )
 thickness = 3
 
 [sub_resource type="DynamicFont" id=34]
@@ -518,7 +519,12 @@ text = "Modo de exibição"
 margin_top = 41.0
 margin_right = 306.0
 margin_bottom = 78.0
+focus_mode = 0
+custom_colors/font_color = Color( 0.862745, 0.862745, 0.862745, 1 )
+custom_colors/font_color_hover = Color( 0.807843, 0.752941, 0.384314, 1 )
+custom_colors/font_color_pressed = Color( 0.862745, 0.862745, 0.862745, 1 )
 custom_fonts/font = ExtResource( 14 )
+enabled_focus_mode = 0
 text = "Fullscreen"
 flat = true
 items = [ "Window", null, false, 0, null, "Fullscreen", null, false, 1, null ]
@@ -592,6 +598,13 @@ margin_left = 53.4915
 margin_top = 102.0
 margin_right = 273.492
 margin_bottom = 505.0
+custom_constants/separation = 20
+
+[node name="Label" type="Label" parent="Menus/MenuContainer/SubMenus/Buttons"]
+margin_right = 222.0
+margin_bottom = 46.0
+custom_fonts/font = SubResource( 27 )
+text = "Menu "
 
 [node name="MenuTitle" type="Label" parent="Menus/MenuContainer/SubMenus/Buttons"]
 visible = false
@@ -603,17 +616,14 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="Menus/MenuContainer/SubMenus/Buttons"]
-margin_right = 222.0
-margin_bottom = 46.0
-custom_fonts/font = SubResource( 27 )
-text = "Menu "
-
 [node name="MainMenu_Button" type="Button" parent="Menus/MenuContainer/SubMenus/Buttons"]
-margin_top = 50.0
+margin_top = 66.0
 margin_right = 222.0
-margin_bottom = 76.0
+margin_bottom = 92.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.862745, 0.862745, 0.862745, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 0.862745, 0.862745, 0.862745, 1 )
 custom_fonts/font = SubResource( 28 )
 enabled_focus_mode = 0
 text = "Menu Principal"
@@ -624,10 +634,13 @@ __meta__ = {
 }
 
 [node name="SaveMenu_Button" type="Button" parent="Menus/MenuContainer/SubMenus/Buttons"]
-margin_top = 80.0
+margin_top = 112.0
 margin_right = 222.0
-margin_bottom = 106.0
+margin_bottom = 138.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.862745, 0.862745, 0.862745, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 0.862745, 0.862745, 0.862745, 1 )
 custom_fonts/font = SubResource( 29 )
 enabled_focus_mode = 0
 text = "Salvar"
@@ -638,10 +651,13 @@ __meta__ = {
 }
 
 [node name="LoadMenu_Button" type="Button" parent="Menus/MenuContainer/SubMenus/Buttons"]
-margin_top = 110.0
+margin_top = 158.0
 margin_right = 222.0
-margin_bottom = 136.0
+margin_bottom = 184.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.862745, 0.862745, 0.862745, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 0.862745, 0.862745, 0.862745, 1 )
 custom_fonts/font = SubResource( 33 )
 enabled_focus_mode = 0
 text = "Carregar"
@@ -652,10 +668,13 @@ __meta__ = {
 }
 
 [node name="Settings_Button" type="Button" parent="Menus/MenuContainer/SubMenus/Buttons"]
-margin_top = 140.0
+margin_top = 204.0
 margin_right = 222.0
-margin_bottom = 166.0
+margin_bottom = 230.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.862745, 0.862745, 0.862745, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 0.862745, 0.862745, 0.862745, 1 )
 custom_fonts/font = SubResource( 30 )
 enabled_focus_mode = 0
 text = "Configurações"
@@ -666,10 +685,12 @@ __meta__ = {
 }
 
 [node name="About_Button" type="Button" parent="Menus/MenuContainer/SubMenus/Buttons"]
-margin_top = 170.0
+margin_top = 250.0
 margin_right = 222.0
-margin_bottom = 196.0
+margin_bottom = 276.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.862745, 0.862745, 0.862745, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
 custom_fonts/font = SubResource( 31 )
 enabled_focus_mode = 0
 text = "Sobre"
@@ -680,10 +701,12 @@ __meta__ = {
 }
 
 [node name="Quit_Button" type="Button" parent="Menus/MenuContainer/SubMenus/Buttons"]
-margin_top = 200.0
+margin_top = 296.0
 margin_right = 222.0
-margin_bottom = 226.0
+margin_bottom = 322.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.862745, 0.862745, 0.862745, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
 custom_fonts/font = SubResource( 32 )
 enabled_focus_mode = 0
 text = "Sair"
@@ -694,17 +717,19 @@ __meta__ = {
 }
 
 [node name="HSeparator" type="HSeparator" parent="Menus/MenuContainer/SubMenus/Buttons"]
-margin_top = 230.0
+margin_top = 342.0
 margin_right = 222.0
-margin_bottom = 280.0
+margin_bottom = 392.0
 custom_constants/separation = 50
 custom_styles/separator = SubResource( 13 )
 
 [node name="ResumeGame_Button" type="Button" parent="Menus/MenuContainer/SubMenus/Buttons"]
-margin_top = 284.0
+margin_top = 412.0
 margin_right = 222.0
-margin_bottom = 310.0
+margin_bottom = 438.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.862745, 0.862745, 0.862745, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
 custom_fonts/font = SubResource( 34 )
 enabled_focus_mode = 0
 text = "Continuar"
@@ -758,6 +783,9 @@ custom_constants/separation = 5
 margin_right = 140.0
 margin_bottom = 28.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.737255, 0.513726, 0.12549, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 0.980392, 0.980392, 0.980392, 1 )
 custom_fonts/font = SubResource( 45 )
 enabled_focus_mode = 0
 text = "Configurações"
@@ -768,6 +796,9 @@ margin_top = 33.0
 margin_right = 140.0
 margin_bottom = 61.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.737255, 0.513726, 0.12549, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 0.862745, 0.862745, 0.862745, 1 )
 custom_fonts/font = SubResource( 46 )
 enabled_focus_mode = 0
 text = "História"
@@ -778,6 +809,9 @@ margin_top = 66.0
 margin_right = 140.0
 margin_bottom = 94.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.737255, 0.513726, 0.12549, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 0.862745, 0.862745, 0.862745, 1 )
 custom_fonts/font = SubResource( 47 )
 enabled_focus_mode = 0
 text = "Salvar"
@@ -788,6 +822,9 @@ margin_top = 99.0
 margin_right = 140.0
 margin_bottom = 127.0
 focus_mode = 0
+custom_colors/font_color = Color( 0.737255, 0.513726, 0.12549, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 0.862745, 0.862745, 0.862745, 1 )
 custom_fonts/font = SubResource( 48 )
 enabled_focus_mode = 0
 text = "Carregar"
