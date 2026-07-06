@@ -82,6 +82,12 @@
 			"event_id": "dialogic_013"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fundo preto/acordar e afins"
+		},
+		{
 			"background": "res://icon.png",
 			"event_id": "dialogic_021"
 		},
@@ -139,6 +145,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Você pisca devagar, tentando lembrar do que aconteceu antes de dormir."
+		},
+		{
+			"change_timeline": "timeline-1783100008.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {

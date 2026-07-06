@@ -7,16 +7,16 @@
 			"text": "Ele olha pra você de lado."
 		},
 		{
-			"character": "",
+			"character": "character-1777851120.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "“...melhor evitar olhares desnecessários.”"
+			"text": "...melhor evitar olhares desnecessários."
 		},
 		{
-			"character": "",
+			"character": "character-1777839556.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Assente. - “Vamos.”"
+			"text": "Vamos."
 		},
 		{
 			"character": "",
@@ -49,10 +49,10 @@
 			"text": "O movimento continua constante ao redor deles, como se o lugar nunca realmente parasse de funcionar."
 		},
 		{
-			"character": "",
+			"character": "character-1777839556.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "-“Elas não ficam paradas. Estão sempre em movimento. Sempre sendo chamadas.”"
+			"text": "Elas não ficam paradas. Estão sempre em movimento. Sempre sendo chamadas."
 		},
 		{
 			"character": "",
@@ -61,16 +61,16 @@
 			"text": "E, ainda assim, há um padrão estranho — algumas mesas chamam mais atenção delas do que outras. Não é apenas serviço. É escolha."
 		},
 		{
-			"character": "",
+			"character": "character-1777839556.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "-“...você percebe isso?”"
+			"text": "...você percebe isso?"
 		},
 		{
-			"character": "",
+			"character": "character-1777851120.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "“Percebo.”"
+			"text": "Percebo."
 		},
 		{
 			"character": "",
@@ -79,28 +79,40 @@
 			"text": "Ele observa uma das atendentes se afastar rapidamente de uma mesa onde dois homens tentaram segurar a conversa por mais tempo do que o necessário."
 		},
 		{
-			"character": "",
+			"character": "character-1777851120.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "“Não é só trabalho, elas são parte lugar, usáveis.”"
+			"text": "Não é só trabalho, elas são parte lugar, usáveis."
+		},
+		{
+			"character": "character-1777839556.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não gosto disso. "
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "-“Não gosto disso.” Ele dá de ombros leve."
+			"text": "Ele dá de ombros leve."
+		},
+		{
+			"character": "character-1777851120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não precisa gostar pra perceber."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "“Não precisa gostar pra perceber.” Ele solta o ar pelo nariz, quase um riso curto sem humor."
+			"text": "Ele solta o ar pelo nariz, quase um riso curto sem humor."
 		},
 		{
-			"character": "",
+			"character": "character-1777839556.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "-“...nada aqui é tão simples quanto parece.”"
+			"text": "...nada aqui é tão simples quanto parece."
 		},
 		{
 			"character": "",
@@ -109,10 +121,10 @@
 			"text": "Aslan finalmente recosta um pouco na cadeira, ainda olhando o salão."
 		},
 		{
-			"character": "",
+			"character": "character-1777851120.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "“É por isso que esse tipo de lugar funciona.”"
+			"text": "É por isso que esse tipo de lugar funciona."
 		},
 		{
 			"character": "",
@@ -121,31 +133,43 @@
 			"text": "Ele faz uma pausa curta, escolhendo as palavras."
 		},
 		{
-			"character": "",
+			"character": "character-1777851120.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "“As pessoas acham que estão só bebendo, só passando tempo, só... existindo aqui por algumas horas.”"
+			"text": "As pessoas acham que estão só bebendo, só passando tempo, só... existindo aqui por algumas horas."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "O olhar dele vai até o balcão. “Mas tudo aqui é troca.” Acompanho o olhar dele."
+			"text": "O olhar dele vai até o balcão. "
+		},
+		{
+			"character": "character-1777851120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mas tudo aqui é troca."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "-“Informação?”"
+			"text": "Acompanho o olhar dele."
 		},
 		{
-			"character": "",
+			"character": "character-1777839556.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Informação?"
+		},
+		{
+			"character": "character-1777851120.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "\"E controle..\""
+			"question": "E controle.."
 		},
 		{
 			"choice": "Silêncio",
@@ -164,22 +188,22 @@
 			"text": "Volto a atenção para uma das atendentes que passa rápido demais entre mesas, evitando contato direto com clientes insistentes."
 		},
 		{
-			"character": "",
+			"character": "character-1777839556.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "-“... o bar não é o ponto.”"
+			"text": "... o bar não é o ponto."
 		},
 		{
-			"character": "",
+			"character": "character-1777851120.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "“Não.”"
+			"text": "Não."
 		},
 		{
-			"character": "",
+			"character": "character-1777851120.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "“É o meio.”"
+			"text": "É o meio."
 		},
 		{
 			"character": "",
@@ -198,6 +222,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Um mês se passou sem que notassem."
+		},
+		{
+			"change_timeline": "timeline-1783361104.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
