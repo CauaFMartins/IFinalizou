@@ -7,6 +7,7 @@
 			"text": "Você é Amara Armstrong, uma caçadora habilidosa que vive no reino de Verlack. Divide uma casa tranquila com seu irmão gêmeo, Aslan, e seu cunhado, Lian."
 		},
 		{
+<<<<<<< HEAD
 			"animation": "2-fade_in_up.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -47,6 +48,8 @@
 			"z_index": 0
 		},
 		{
+=======
+>>>>>>> c11a391b70bc9205d77af8c0294e03344477b399
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
