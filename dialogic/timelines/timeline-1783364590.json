@@ -1,0 +1,250 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O salão da Viajante Errante ainda está acordando junto com a cidade. O movimento é menor do que nas noites cheias, mais lento, mais humano."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algumas mesas já estão ocupadas por viajantes cansados demais para subir aos quartos, enquanto outras recebem os primeiros clientes do dia."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O cheiro de pão quente e café recém-passado ocupa o ambiente."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aslan segue ao lado de Amara enquanto procuram uma mesa livre perto da janela. Sem precisar conversar muito, os dois já sabem quais lugares oferecem melhor visão da entrada e menos atenção desnecessária."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uma das atendentes passa por eles com uma bandeja apoiada no ombro."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Vocês acordaram tarde hoje.”"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Amara apoia o braço na mesa."
+		},
+		{
+			"choice": "1-“Milagre estarmos dormindo.”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "2-”Você é minha mãe agora?”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "2-”Fiquei pensando em você..”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A atendente ri baixo antes de continuar andando."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aslan observa a interação por um instante, mas não comenta nada. Só se senta de frente para a janela enquanto o movimento da rua começa a aumentar lá fora."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por um tempo, tudo parece normal. Clientes entrando. Pedidos simples. Conversa baixa preenchendo o salão."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Até que um barulho diferente surge do lado de fora..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Primeiro distante. Depois mais próximo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gritos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "O tipo de voz que chama atenção sem querer chamar ajuda."
+		},
+		{
+			"choice": "Inspecionar os gritos",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Amara desvia o olhar da mesa na mesma hora. Aslan ergue levemente a cabeça, atento."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Outro grito."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais perto agora. Mas ninguém se levanta."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Isso parece dizer muito sobre aquela cidade."
+		},
+		{
+			"choice": "Olhar pela janela.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Amara inclina um pouco o corpo para olhar melhor pela janela."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lá fora, perto da saída que leva para a área mais baixa da cidade — próxima da direção da floresta ."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Outro som seco ecoa."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo sendo atingido."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aslan também olha, mas evita ficar exposto demais na janela. E então Amara vê um garoto."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Branco, magro, cabelo castanho muito curto, quase raspado. Os olhos castanhos estão arregalados mais de raiva do que medo. Ele está caído junto à cadeira de rodas enquanto três homens o cercam."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ele desfere um chute na cabeça do homem e, em seguida, agarra uma de suas pernas, forçando-a até que um estalo seco ecoe pelo ambiente. Um dos outros homens ri, zombando da completa ausência de qualquer expressão de dor."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Outro já se aproxima da perna restante, impaciente, como se estivesse ansioso para repetir o mesmo procedimento. Amara sente o corpo tensionar."
+		},
+		{
+			"choice": "1-Intervir",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "2-Ignorar",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Efeito de decisão crítica, se der.*"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "1-A porta se abre forte contra o vento quando ela atravessa a entrada sem hesitar."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1783364590.json",
+		"name": "cap23"
+	}
+}
