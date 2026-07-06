@@ -7,10 +7,73 @@
 			"text": "Você é Amara Armstrong, uma caçadora habilidosa que vive no reino de Verlack. Divide uma casa tranquila com seu irmão gêmeo, Aslan, e seu cunhado, Lian."
 		},
 		{
+<<<<<<< HEAD
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1783100813.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1777850547.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+=======
+>>>>>>> c11a391b70bc9205d77af8c0294e03344477b399
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Há dias, Aslan adoece, tornando-se mais fraco a cada manhã, e por isso você parte antes do amanhecer para caçar na floresta próxima, garantindo alimento para sua família."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1783100813.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"character": "",
@@ -67,10 +130,6 @@
 			"text": "Você segue em frente. "
 		},
 		{
-			"event_id": "dialogic_024",
-			"set_theme": "theme-1631463496.cfg"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_010",
 			"options": [
@@ -80,28 +139,7 @@
 			"question": "Sem saber que, naquele exato momento, algo já começou a mudar."
 		},
 		{
-			"choice": "Vou perder meu tempo conversando com vocês ou vamos resolver isso de uma vez.",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"choice": "Estou tentando decidir quanto esforço vocês realmente merecem.",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"choice": "Estou tentando descobrir se vocês são realmente estúpidos ou só fingem muito bem.",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"choice": "Você acha que quantos de vocês vão continuar sorrindo daqui acinco minutos?",
+			"choice": "Continuar",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -109,10 +147,6 @@
 		},
 		{
 			"event_id": "dialogic_013"
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "theme-1631463496.cfg"
 		},
 		{
 			"change_timeline": "timeline-1777835378.json",
