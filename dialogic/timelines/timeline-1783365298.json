@@ -76,6 +76,99 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você lança um olhar rápido para o grupo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Ela tá convidando a gente pra beber?” um deles pergunta, soltando uma risada."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Ou tá tentando se livrar da gente?” outro responde."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O terceiro, o mesmo que não parava de te encarar, abre um sorriso torto."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“E por que a gente faria isso?”"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Você dá de ombros. Um leve sorriso surge em seu rosto."
+		},
+		{
+			"choice": "1.3-“Porque tenho certeza de que cerveja boa é mais divertida do queficar aqui brincando com alguém que nem consegue revidar.”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "1.4-“Vão me dizer que quebrar ossos é mais divertido do que uma boacaneca de cerveja?”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "1.5-”Tem bebida, comida e gente interessante para incomodar lá dentro.Parece uma forma melhor de passar o tempo.”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Olha só.” Um deles assobia. “Ela até tem coragem.”"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Ou é burra.” Outro ri."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O homem que te encarava continua observando você por alguns segundos antes de falar."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“E quem garante que a bebida presta?”"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Só existe um jeito de descobrir.”"
 		}
 	],
 	"metadata": {
