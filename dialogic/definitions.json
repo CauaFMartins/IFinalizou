@@ -17,16 +17,16 @@
 			"value": ""
 		},
 		{
-			"id": "1781631819-970",
-			"name": "pulseira_casamento",
-			"type": 0,
-			"value": "false"
-		},
-		{
 			"id": "1783364524-787",
 			"name": "luz",
 			"type": 0,
 			"value": ""
+		},
+		{
+			"id": "1781631819-970",
+			"name": "pulseira_casamento",
+			"type": 0,
+			"value": "false"
 		}
 	]
 }
