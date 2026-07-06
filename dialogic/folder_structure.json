@@ -51,11 +51,12 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Themes": {
 			"files": [
+				"theme-1783350220.cfg",
 				"theme-1631463496.cfg"
 			],
 			"folders": {
