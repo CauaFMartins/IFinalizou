@@ -1,10 +1,10 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1777839556.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "“Vai ficar aí?”- Você parte na frente."
+			"text": "Vai ficar aí?"
 		},
 		{
 			"character": "",
@@ -61,16 +61,20 @@
 			"text": "A descida começa a ficar mais íngreme. As construções ao redor mudam — menos cuidado, mais uso. Madeira escura, pedra antiga, estruturas que parecem ter sido adaptadas várias vezes ao longo do tempo."
 		},
 		{
-			"character": "",
+			"character": "character-1777839556.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "-”Aqui é estranho, o ar é diferente. Parece outro lugar.”"
+			"text": "Aqui é estranho, o ar é diferente. Parece outro lugar."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Não é só o som que diminui. É o tipo de gente. Menos olhares curiosos. Mais pressa. Mais discrição."
+		},
+		{
+			"change_timeline": "timeline-1783358986.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
