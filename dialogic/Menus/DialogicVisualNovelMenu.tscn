@@ -1,4 +1,4 @@
-[gd_scene load_steps=62 format=2]
+[gd_scene load_steps=69 format=2]
 
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/DefaultBoldFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://addons/dialogic/Documentation/Theme/Font/Cinzel/static/Cinzel-Black.ttf" type="DynamicFontData" id=2]
@@ -22,6 +22,7 @@
 [ext_resource path="res://dialogic/Menus/ScrollContainer.gd" type="Script" id=20]
 [ext_resource path="res://Artes/diario/font_diary/Seagram tfb.ttf" type="DynamicFontData" id=21]
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/trajan-pro/TrajanPro-Bold.otf" type="DynamicFontData" id=22]
+[ext_resource path="res://Artes/Fundos/image-Photoroom.png" type="Texture" id=23]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.360784, 0.392157, 0.407843, 1 )
@@ -186,12 +187,25 @@ Button/styles/hover = null
 Button/styles/normal = null
 Button/styles/pressed = null
 
-[sub_resource type="StyleBoxFlat" id=18]
-bg_color = Color( 0.643137, 0.45098, 0.258824, 1 )
-corner_radius_top_left = 10
-corner_radius_top_right = 10
-corner_radius_bottom_right = 10
-corner_radius_bottom_left = 10
+[sub_resource type="StyleBoxTexture" id=49]
+texture = ExtResource( 23 )
+region_rect = Rect2( 0, 45, 1536, 1024 )
+expand_margin_left = 50.0
+expand_margin_right = 50.0
+expand_margin_top = 50.0
+expand_margin_bottom = 50.0
+
+[sub_resource type="DynamicFont" id=45]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=46]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=47]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=48]
+font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=25]
 size = 48
@@ -291,10 +305,14 @@ font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=39]
 size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=40]
 size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=41]
@@ -304,6 +322,20 @@ outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 22 )
 
 [sub_resource type="DynamicFont" id=42]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+extra_spacing_top = 20
+extra_spacing_bottom = -6
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=43]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=44]
 size = 20
 outline_size = 1
 outline_color = Color( 0, 0, 0, 1 )
@@ -690,42 +722,51 @@ margin_left = 369.707
 margin_top = 206.884
 margin_right = 673.707
 margin_bottom = 379.884
-custom_styles/panel = SubResource( 18 )
+custom_styles/panel = SubResource( 49 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Menus/MenuContainer/InGameMenu/Panel"]
 anchor_left = 0.174
 anchor_top = 0.995
 anchor_right = 0.331
 anchor_bottom = 1.077
-margin_left = 40.104
+margin_left = 29.104
 margin_top = -148.135
-margin_right = 107.376
+margin_right = 121.376
 margin_bottom = -42.321
+custom_constants/separation = 15
 
 [node name="Settings_Button" type="Button" parent="Menus/MenuContainer/InGameMenu/Panel/VBoxContainer"]
-margin_right = 115.0
-margin_bottom = 26.0
+margin_right = 140.0
+margin_bottom = 16.0
+custom_fonts/font = SubResource( 45 )
 text = "Configurações"
 flat = true
 
 [node name="History_Button" type="Button" parent="Menus/MenuContainer/InGameMenu/Panel/VBoxContainer"]
-margin_top = 30.0
-margin_right = 115.0
-margin_bottom = 56.0
+margin_top = 31.0
+margin_right = 140.0
+margin_bottom = 47.0
+custom_fonts/font = SubResource( 46 )
 text = "História"
 flat = true
 
 [node name="Save_Button" type="Button" parent="Menus/MenuContainer/InGameMenu/Panel/VBoxContainer"]
-margin_top = 60.0
-margin_right = 115.0
-margin_bottom = 86.0
+margin_top = 62.0
+margin_right = 140.0
+margin_bottom = 78.0
+focus_mode = 0
+custom_fonts/font = SubResource( 47 )
+enabled_focus_mode = 0
 text = "Salvar"
 flat = true
 
 [node name="Load_Button" type="Button" parent="Menus/MenuContainer/InGameMenu/Panel/VBoxContainer"]
-margin_top = 90.0
-margin_right = 115.0
-margin_bottom = 116.0
+margin_top = 93.0
+margin_right = 140.0
+margin_bottom = 109.0
+focus_mode = 0
+custom_fonts/font = SubResource( 48 )
+enabled_focus_mode = 0
 text = "Carregar"
 flat = true
 
@@ -989,6 +1030,7 @@ custom_colors/font_color = Color( 0.564706, 0.396078, 0.0941176, 1 )
 custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
 custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
 custom_fonts/font = SubResource( 39 )
+enabled_focus_mode = 0
 text = "Continuar"
 flat = true
 
@@ -1039,7 +1081,7 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="Menus/MenuContainer/LooseSaveWarning/WarningPanel/VBoxContainer"]
-modulate = Color( 0.537255, 0.329412, 0, 1 )
+modulate = Color( 0.564706, 0.396078, 0.0941176, 1 )
 margin_top = 17.0
 margin_right = 378.0
 margin_bottom = 54.0
@@ -1071,6 +1113,12 @@ alignment = 1
 margin_left = 77.0
 margin_right = 149.0
 margin_bottom = 37.0
+focus_mode = 0
+custom_colors/font_color = Color( 0.564706, 0.396078, 0.0941176, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 0.862745, 0.862745, 0.862745, 1 )
+custom_fonts/font = SubResource( 43 )
+enabled_focus_mode = 0
 text = "Continuar"
 flat = true
 
@@ -1078,6 +1126,12 @@ flat = true
 margin_left = 189.0
 margin_right = 301.0
 margin_bottom = 37.0
+focus_mode = 0
+custom_colors/font_color = Color( 0.564706, 0.396078, 0.0941176, 1 )
+custom_colors/font_color_hover = Color( 0.909804, 0.780392, 0.47451, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 44 )
+enabled_focus_mode = 0
 text = "Cancelar"
 flat = true
 
